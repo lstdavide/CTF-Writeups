@@ -36,3 +36,12 @@ First step is to *file stug.jpg* in order to find out what type of file this is.
 
 
 *steghide* is a steganography tool used to encrypt information within files but we are using it to do the opposite, so decrypt hidden information within the hidden file. With the command *steghide extract -sf stug.jpg* we are specifying that we want to extract from the given file. Next we are given a *Enter passphrase* prompt and I entered "stug" as the password, getting back a *flag.txt* file in the same directory. *cat flag.txt* shows the flag in clear text.
+
+References and Links:
+https://attack.mitre.org/techniques/T1204/
+https://attack.mitre.org/techniques/T1027/
+https://cwe.mitre.org/data/definitions/201.html
+https://cwe.mitre.org/data/definitions/312.html
+https://cwe.mitre.org/data/definitions/319.html
+https://exiftool.org/
+https://steghide.com/
